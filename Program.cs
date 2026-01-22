@@ -44,5 +44,10 @@ class Program
         Console.WriteLine($"Difference: {difference}");
         Console.WriteLine($"Product: {product}");
         Console.WriteLine($"Quotient: {quotient}");
+
+        /* Compare numbers */
+        PrintLabel("Comparisons");
+        Console.WriteLine($"{n1} != {n2}: {n1 != n2}");
+        Console.WriteLine($"{n1} < {n2}: {n1 < n2}");
     }
 }
