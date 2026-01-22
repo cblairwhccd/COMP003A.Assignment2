@@ -36,5 +36,13 @@ class Program
         PrintLabel("Name Formats");
         Console.WriteLine("Using concatenation: " + lastName + ", " + firstName);
         Console.WriteLine($"Using interpolation: {lastName}, {firstName}");
+
+        /* Print results */
+        PrintLabel("Results");
+        Console.WriteLine($"Sum: {sum}");
+        Console.WriteLine($"Average: {average}");
+        Console.WriteLine($"Difference: {difference}");
+        Console.WriteLine($"Product: {product}");
+        Console.WriteLine($"Quotient: {quotient}");
     }
 }
