@@ -17,5 +17,12 @@ class Program
         /* Parse numerical input (assume valid input) */
         double n1 = double.Parse(number1);
         double n2 = double.Parse(number2);
+
+        /* Compute calculations */
+        double sum = n1 + n2;
+        double average = (n1 + n2) / 2.0;
+        double difference = n1 - n2;
+        double product = n1 * n2;
+        double quotient = n1 / n2;
     }
 }
