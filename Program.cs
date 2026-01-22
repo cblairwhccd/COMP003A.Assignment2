@@ -2,6 +2,13 @@
 
 class Program
 {
+    static void PrintLabel(string str)
+    {
+        Console.WriteLine();
+        Console.WriteLine(str);
+        Console.WriteLine(new string('-', str.Length));
+    }
+
     static void Main()
     {
         /* Get information */
@@ -24,5 +31,10 @@ class Program
         double difference = n1 - n2;
         double product = n1 * n2;
         double quotient = n1 / n2;
+
+        /* Print name */
+        PrintLabel("Name Formats");
+        Console.WriteLine("Using concatenation: " + lastName + ", " + firstName);
+        Console.WriteLine($"Using interpolation: {lastName}, {firstName}");
     }
 }
