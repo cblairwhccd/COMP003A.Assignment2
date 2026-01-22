@@ -4,9 +4,8 @@ class Program
 {
     static void PrintLabel(string str)
     {
-        Console.WriteLine();
-        Console.WriteLine(str);
-        Console.WriteLine(new string('-', str.Length));
+        /* Display label with dashes underneath */
+        Console.WriteLine($"\n{str}\n{new string('-', str.Length)}");
     }
 
     static void Main()
